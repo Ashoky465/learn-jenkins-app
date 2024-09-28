@@ -22,5 +22,8 @@ pipeline {
                 
             }
         }
+        stage ('Test'){
+            sh 'echo"Inside Test"'
+        }
     }
 }
