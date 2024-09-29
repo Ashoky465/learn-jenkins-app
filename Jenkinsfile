@@ -23,10 +23,12 @@ pipeline {
             }
         }
         stage ('Test'){
-             echo 'Inside Test'
-        }
+             
+        
         steps{
+		     echo 'Inside Test.....'
              sh ls -la
+			 }
         }
     }
 }
