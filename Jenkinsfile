@@ -31,7 +31,7 @@ pipeline {
 
              sh '''
              ls -la
-             cat /workspaces/learn-jenkins-app/build
+             cat /learn-jenkins-app/build
              '''
              
 			 }
