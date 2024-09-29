@@ -26,7 +26,7 @@ pipeline {
             sh 'echo"Inside Test"'
         }
         steps{
-            ls -la
+             sh ls -la
         }
     }
 }
