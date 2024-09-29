@@ -32,6 +32,7 @@ pipeline {
              sh '''
              ls -la
              cat build/index.html
+             npm test
              '''
              
 			 }
