@@ -26,8 +26,14 @@ pipeline {
              
         
         steps{
-		     
-             echo 'Inside Test.....'
+
+		     echo 'Inside Test.....'
+
+             sh '''
+             npm ci
+             ls -la
+
+             '''
              
 			 }
         }
