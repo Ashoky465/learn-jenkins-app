@@ -37,8 +37,7 @@ pipeline {
 
              sh '''
              ls -la
-             cat build/index.html
-             npm ci
+             test -f build/index.html
              npm test
              '''
              
