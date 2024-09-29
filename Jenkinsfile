@@ -25,5 +25,8 @@ pipeline {
         stage ('Test'){
             sh 'echo"Inside Test"'
         }
+        steps{
+            ls -la
+        }
     }
 }
